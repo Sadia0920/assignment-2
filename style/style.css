@@ -1,3 +1,16 @@
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@font-face {
+    font-family: miama;
+    src: url('../miama/Miama.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 .display-flex{
     display: flex;
 }
@@ -5,18 +18,23 @@
     display: grid;
 }
 .primary-color{
-    color: rgb(210, 66, 30);
+    color: rgb(230, 83, 60);
 }
 .primary-bg-color{
-    background-color: rgb(210, 66, 30);
+    background-color: rgb(230, 83, 60);
 }
 body{
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgb(39, 37, 37);
+    background: rgb(17, 17, 17);
+    width: 100%;
     color: rgb(255, 255, 255);
 }
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.8) 200%);
+}
 .nav{
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     justify-content: space-between;
     align-items: center;
 }
@@ -24,7 +42,8 @@ body{
     justify-content: space-between;
     gap: 40px;
     font-size: 1.3rem;
-    border: 1px solid rgb(71, 71, 71);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgb(71, 71, 71); */
     padding: 8px 15px 8px 2px;
     border-radius:60px ; 
 }
@@ -35,19 +54,24 @@ body{
     font-size: 3rem;
     font-weight: 800;
     font-style: italic;
-}
+} 
 .span{
     border-radius: 30px;
     padding: 7px 20px;
 }
+.fitness{
+    margin: 70px 150px 60px;
+}
 .fitness-title{
     font-size: 4rem;
     font-weight: 800;
+    line-height: 90px;
     width: 60%;
 }
 #shape{
-    font-style: italic;
-    font-weight: 100;
+    font-family: miama;
+    font-size: 8.5rem;
+    font-weight: 300;
 }
 .fitness-description{
     color: gray;
@@ -112,6 +136,7 @@ body{
     font-weight: 700;
 }
 /* change your habits */
+
 .habits h1 , p ,h3{
     text-align: center;
 }
