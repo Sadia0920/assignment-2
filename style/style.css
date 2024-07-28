@@ -286,22 +286,31 @@ input, select{
     align-items: center;
     margin-left: 60px;
 }
-.foot{
-    background-color: black;
-    width: 100%;
+/* footer section */
+footer{
+    background: rgba(255, 255, 255, 0.1);
 }
-.footer{
-    margin-top: 100px;
+.foot{
+    margin: 70px 150px 60px;
+    padding-top: 1px;
+}
+.footer-section{
+    margin-top: 50px;
     grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
-
+}
+.footer-name{
+    font-size: 3.5rem;
 }
 .footer-text{
-    margin-left: 40px;
+    width: 65%;
 }
 .Get-Started{
     align-items: center;
+}
+.gs-title{
+    margin-bottom: 15px;
 }
 .Get-Started ul{
     list-style: none;
@@ -311,18 +320,19 @@ input, select{
     font-size: 1.3rem;
     font-weight: 500;
     color: gray;
-    line-height: 25px;
+    line-height: 28px;
     text-align: left;
-    margin-left: -45px;
 }
 .hr-line{
-    width: 80%;
-    border: 1px solid rgb(92, 91, 91);
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .reserved{
-    color: gray;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
     font-size: 1.3rem;
-    font-weight: 500;
-    margin:50px auto; 
+    margin:30px auto; 
+    padding-bottom: 30px;
 
 }
