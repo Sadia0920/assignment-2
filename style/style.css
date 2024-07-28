@@ -304,6 +304,7 @@ footer{
     font-size: 3.5rem;
 }
 .footer-text{
+    margin-left: 55px;
     width: 65%;
 }
 .Get-Started{
