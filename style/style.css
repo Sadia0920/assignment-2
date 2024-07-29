@@ -373,7 +373,7 @@ footer{
     background: rgba(255, 255, 255, 0.1);
 }
 .foot{
-    margin: 70px 150px 60px;
+    margin: 70px 150px 0px;
     padding-top: 1px;
 }
 .footer-section{
@@ -414,7 +414,7 @@ footer{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 1.3rem;
-    margin:30px auto; 
-    padding-bottom: 30px;
+    margin:50px auto; 
+    padding-bottom: 50px;
 
 }
