@@ -1,4 +1,7 @@
 @media screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
     .nav,
     .fitness,
     .dietitian,
@@ -39,9 +42,8 @@
         margin-left: 0px;
         padding: 20px 25px 20px 60px;
     }
-    .habit{
-        width: 100%;
-        margin: 0 auto;
+    .habits{
+        margin: 70px 20px 60px;
     }
     .habits-title,
     .habits-description{
@@ -49,7 +51,10 @@
     }
     .habits-img img , p ,h3{ 
         width: 100%;
-        margin: 0 auto;
+    }
+    .habits-img img {
+        width: 50%;
+        margin-left: 90px;
     }
      .habits-img, 
      .run,
@@ -60,7 +65,7 @@
         gap: 0px;
      }
      .run{
-        width: 80%;
+        width: 100%;
         margin: 10px 30px 10px;
         padding: 20px;
     }
@@ -95,5 +100,39 @@
     }
     #select-activity{
         width: 80%;
+    }
+    .trainer-section{
+        margin: 70px 10px 60px;
+    }
+    .trainer-img{
+        gap: 20px;
+    } 
+    .dietitian-section{
+        margin: 70px 10px 60px;
+    }
+    .dietitian,
+    .diet-chart{
+        background: linear-gradient(360.00deg, rgb(0, 0, 0),rgba(119, 119, 119, 0.3) 100%);
+    }
+    .dietitian-pic img{
+        width: 350px;
+        margin: 25px; 
+    }
+    .dietitian-description, .diet-chart-description{
+        margin: 50px 20px ;
+    }
+    .diet-chart-pic img{
+        width: 350px;
+        margin: 25px; 
+    }
+    .diet-chart-description{
+        margin-bottom:0px;
+    }
+    .foot{
+        margin: 70px 50px 0px;
+    }
+    .hr-line{
+        margin-top: 50px;
+        width: 100%;
     }
 }
