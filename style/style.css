@@ -179,6 +179,7 @@ body{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 90px;
 }
+/* run section */
 .run{
     margin: 70px 150px 60px;
     grid-template-columns: 1fr 1fr;

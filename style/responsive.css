@@ -1,6 +1,8 @@
 @media screen and (max-width:576px) {
     .nav,
-    .fitness{
+    .fitness,
+    .dietitian,
+    .diet-chart{
         flex-direction: column;
     }
     .fitness{
@@ -36,5 +38,62 @@
         margin-top: -150px;
         margin-left: 0px;
         padding: 20px 25px 20px 60px;
+    }
+    .habit{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .habits-title,
+    .habits-description{
+        width: 100%;
+    }
+    .habits-img img , p ,h3{ 
+        width: 100%;
+        margin: 0 auto;
+    }
+     .habits-img, 
+     .run,
+     .calculation-bmi,
+     .trainer-img,
+     .footer-section{
+        grid-template-columns: repeat(1,1fr);
+        gap: 0px;
+     }
+     .run{
+        width: 80%;
+        margin: 10px 30px 10px;
+        padding: 20px;
+    }
+    .run img{
+        margin: 30px auto;
+    }
+    .bmi-section{
+        width: 100%;
+    }
+    .bmi-section>h1{
+        margin: 30px 20px 20px 20px;
+    }
+    .bmi-section>p{
+        width: 80%;
+        margin-left: 20px ;
+        text-align: left;
+    }
+    .bmi-table{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .bmi-calculator{
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    input{
+        width: 30%;
+    }
+    select{
+        width: 39.5%;
+    }
+    #select-activity{
+        width: 80%;
     }
 }
