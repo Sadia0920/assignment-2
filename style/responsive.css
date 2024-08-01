@@ -33,9 +33,9 @@
         margin-right: 100px;
     }
     .btn-3{
-        margin-top: -480px;
-        margin-left: 210px;
-        padding: 8px 23px;
+        margin-top: -400px;
+        margin-left: 180px;
+        padding: 8px 20px;
     }
     .btn-4{
         margin-top: -150px;
@@ -43,11 +43,16 @@
         padding: 20px 25px 20px 60px;
     }
     .habits{
-        margin: 70px 20px 60px;
+        margin: 70px 20px 60px; 
     }
     .habits-title,
     .habits-description{
         width: 100%;
+    }
+    .habits-img p{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 90px;
     }
     .habits-img img , p ,h3{ 
         width: 100%;
@@ -65,12 +70,17 @@
         gap: 0px;
      }
      .run{
-        width: 100%;
-        margin: 10px 30px 10px;
+        width: 60%;
+        margin: 10px auto;
         padding: 20px;
     }
+    .run-description{
+        width: 80%;
+        text-align: left;
+    }
     .run img{
-        margin: 30px auto;
+        width: 250px;
+        margin: 10px auto;
     }
     .bmi-section{
         width: 100%;
@@ -92,6 +102,9 @@
         margin-left: 30px;
         margin-top: 40px;
     }
+    .bmi-description{
+        width: 65%;
+    }
     input{
         width: 30%;
     }
@@ -102,28 +115,28 @@
         width: 80%;
     }
     .trainer-section{
-        margin: 70px 10px 60px;
+        margin: 70px 10px 60px; 
     }
     .trainer-img{
         gap: 20px;
     } 
     .dietitian-section{
-        margin: 70px 10px 60px;
+        margin: 60px 10px 70px
     }
     .dietitian,
     .diet-chart{
         background: linear-gradient(360.00deg, rgb(0, 0, 0),rgba(119, 119, 119, 0.3) 100%);
     }
     .dietitian-pic img{
-        width: 350px;
-        margin: 25px; 
+        width: 280px;
+        margin: 25px 50px
     }
     .dietitian-description, .diet-chart-description{
         margin: 50px 20px ;
     }
     .diet-chart-pic img{
-        width: 350px;
-        margin: 25px; 
+        width: 280px;
+        margin: 25px 50px; 
     }
     .diet-chart-description{
         margin-bottom:0px;
