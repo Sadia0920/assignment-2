@@ -29,8 +29,12 @@
     }
     .fitness-title{
         width: 80%;
-        font-size: 3rem;
+        font-size: 2.6rem;
+        line-height: 65px;
         text-align: left;
+    }
+    #shape{
+        font-size: 6.5rem;
     }
     .btn{
         width: 90%;
@@ -43,11 +47,14 @@
         margin-right: 10px; 
     }
     .fitness-img{
-        width: 90%;
-        margin-right: 10px;
+        width: 100%;
+        margin-right: 20px;
+        width: 300px;
+        height: 500px;
+        margin-top: 20px;
     }
     .btn-3{
-        margin-top: -450px;
+        margin-top: -400px;
         margin-left: 200px;
         padding: 8px 20px;
     }
@@ -55,6 +62,9 @@
         margin-top: -150px;
         margin-left: 0px;
         padding: 15px 15px 20px 60px;
+    }
+    #play{
+        display: block;
     }
     .habits{
         width: 90%;
@@ -104,6 +114,7 @@
         margin: 10px auto ;
     }
     .run button{
+        padding: 15px 125px;
        margin-left: 20px;
        margin-bottom: 20px;
     }
@@ -137,13 +148,13 @@
         margin-left: 0px;
     }
     input{
-        width: 38%;
+        width: 35%;
     }
     select{
-        width: 48.5%;
+        width: 45.5%;
     }
     #select-activity{
-        width: 98%;
+        width: 92%;
     }
     .trainer-section{
         margin: 70px 10px 60px; 
@@ -164,6 +175,9 @@
     }
     .trainer-img img{
         height: 300px;
+    }
+    .img-14{
+        display: none;
     }
     .dietitian-section{
         margin: 60px 20px 70px
