@@ -2,15 +2,26 @@
     body{
         width: 100%;
     }
-    .nav,
+    .nav-items{
+        display: none;
+    }
+    .ham-menu{
+        display: block;
+    }
+    .ham-menu i{
+        font-size: 2rem;
+    }
+    .theme-name{
+        font-size: 3rem;
+    }
     .fitness,
     .dietitian,
     .diet-chart{
         flex-direction: column;
     }
     .nav{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .fitness{
         /* margin: 0 auto; */
@@ -47,16 +58,16 @@
     }
     .habits{
         width: 90%;
-        margin: 70px 10px 60px; 
+        margin: 70px 20px 60px; 
     }
     .habits-title{
         width: 90%;
         margin-bottom: 15px;
+        margin-left: 20px;
     }
     .habits-description{
         width: 70%;
         margin: 20px auto;
-       
     }
     .habits-img p{
         width: 50%;
@@ -80,16 +91,21 @@
      }
      .run{
         width: 85%;
-        margin: 5px auto 40px; 
-        padding: 15px; 
+        margin: 10px auto 40px; 
+        padding: 10px; 
     }
     .run-description{
         width: 80%;
         text-align: left;
+        margin-left: 20px;
     }
     .run img{
         width: 300px;
-        margin: 10px auto;
+        margin: 10px auto ;
+    }
+    .run button{
+       margin-left: 20px;
+       margin-bottom: 20px;
     }
     .bmi-section{
         width: 100%;
@@ -111,44 +127,46 @@
         margin-left: 20px;
     }
     .bmi-calculator{
-        width: 80%;
+        width: 90%;
         margin-right: 20px;
         margin-left: 20px;
         margin-top: 40px;
     }
     .bmi-description{
-        width: 80%;
+        width: 90%;
+        margin-left: 0px;
     }
     input{
-        width: 30%;
+        width: 38%;
     }
     select{
-        width: 41.5%;
+        width: 48.5%;
     }
     #select-activity{
-        width: 84.7%;
+        width: 98%;
     }
     .trainer-section{
         margin: 70px 10px 60px; 
     }
     .trainer-description{
-        width: 80%;
-        margin: 10px;
-        margin-bottom: 30px;
-        text-align: left;
+        width: 85%;
+        margin: 30px auto;
+        text-align:center;
     }
     .trainer-img{
         width: 80%;
+        margin: 20px auto;
         gap: 20px;
     } 
     .same-info{
         width: 100%;
+        margin-left:25px;
     }
     .trainer-img img{
         height: 300px;
     }
     .dietitian-section{
-        margin: 60px 10px 70px
+        margin: 60px 20px 70px
     }
     .dietitian,
     .diet-chart{
@@ -159,7 +177,7 @@
         margin: 25px 50px
     }
     .dietitian-description, .diet-chart-description{
-        margin: 50px 20px ;
+        margin: 20px ;
     }
     .diet-chart-pic img{
         width: 280px;
@@ -169,7 +187,20 @@
         margin-bottom:0px;
     }
     .foot{
-        margin: 70px 50px 0px;
+        margin: 70px 20px 0px;
+    }
+    .footer-name{
+        font-size: 5rem;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .foot-description{
+        width: 90%;
+        margin-left: 0px;
+    }
+    .gs-title{
+        margin-top: 15px;
     }
     .hr-line{
         margin-top: 50px;

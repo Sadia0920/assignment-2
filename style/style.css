@@ -50,6 +50,9 @@ body{
 .nav-items li{
     list-style: none;
 }
+.ham-menu{
+    display: none;
+} 
 .theme-name{
     font-size: 2rem;
     font-weight: 800;
